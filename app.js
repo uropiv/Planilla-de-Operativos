@@ -1,5 +1,5 @@
 // Cambiá esto por tu Web App URL (del Deploy)
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwrtYvNLPMik8ZLwud8rWL78t2Yvnq88s-sAEKppUAn7PGtnaVle5NAWFqAiaJtMt7hPQ/exec";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxwyM2ePr4q982MV2WkMTgb47Q2uzGo-ETYaRcaJ462qopmcjcTSIPCG8ttwtzAbnbF0Q/exec";
 
 document.addEventListener('DOMContentLoaded', function(){
   // fecha por defecto hoy
@@ -38,4 +38,5 @@ async function crearOperativo() {
 
 // util
 function escapeHtml(s){ if(!s) return ''; return s.replace(/[&<>"'`=\/]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','/':'&#x2F;','`':'&#x60;','=':'&#x3D;'}[c];}); }
+
 
