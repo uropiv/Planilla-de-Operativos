@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Operativos UR IV - Crear Operativo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Control de Operativos — UR IV</h1>
+
+    <label>Tipo de operativo</label>
+    <select id="tipo">
+      <option value="">-- seleccionar --</option>
+      <option value="DIARIO">DIARIO</option>
+      <option value="RURAL">RURAL</option>
+      <option value="ALCOHOLEMIA">ALCOHOLEMIA</option>
+    </select>
+
+    <label>Fecha</label>
+    <input type="date" id="fecha">
+
+    <div class="row">
+      <button id="btnCrear">Crear Operativo</button>
+      <button id="btnAbrirAdmin">Panel Admin</button>
+    </div>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
