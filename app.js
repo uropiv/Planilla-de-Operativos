@@ -40,3 +40,4 @@ async function crearOperativo() {
 function escapeHtml(s){ if(!s) return ''; return s.replace(/[&<>"'`=\/]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','/':'&#x2F;','`':'&#x60;','=':'&#x3D;'}[c];}); }
 
 
+
